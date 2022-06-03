@@ -1,42 +1,46 @@
 a {
-  color: #34495e;
+  color: #0e1114;
   text-decoration: none;
 }
 
+
+
 .navbar {
-  background-color: #9caebf;
+  background-color: #171717;
 }
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 
   &:focus {
-    color: #6289ad;
+    color: #E91F63;
     background-color: transparent;
   }
   &:hover {
-    color: #6289ad;
+    color: #E91F63;
     background-color: transparent;
   }
 }
+
+
 
 .navbar-nav>li>.dropdown-menu {
   border: none;
 
   li a {
-    color: #6289ad;
+    color: #E91F63;
   }
 }
 
 .btn-success {
   color: #fff;
-  background-color: #6289ad;
-  border-color: #6289ad;
+  background-color: #E91F63;
+  border-color: #E91F63;
 
   &:hover {
     color: #fff;
-    background-color: #4b6f91;
-    border-color: #486a8a;
+    background-color: #A40000;
+    border-color: #A40000;
   }
 }
 
@@ -54,7 +58,7 @@ a {
 
 .navbar-nav>li>.dropdown-menu>li:focus, .navbar-nav>li>.dropdown-menu>li:hover {
   text-decoration: none;
-  background-color: #6289ad;
+  background-color: #E91F63;
 
   a {
     color: #fff;
@@ -72,7 +76,7 @@ a {
 }
 
 .jumbotron.jumbotron-fluid {
-  background-color: #9caebf;
+  background-color: #212327;
 }
 
 .search input {
@@ -94,15 +98,15 @@ a {
 }
 
 .footer {
-  background-color: #9caebf;
+  background-color: #222325;
   color: #fff;
   margin-top: 30px;
 
   .copy-right {
-    background-color: #9caebf;
+    background-color:  #1b1b1b;
   }
 
   a:hover {
-    color: #6289ad;
+    color: #E91F63;
   }
 }

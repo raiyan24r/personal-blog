@@ -36,7 +36,7 @@ footer {
 
 a:hover {
   text-decoration: none;
-  color: #18bc9c;
+  color: #FF002E;
 }
 
 textarea {
@@ -96,7 +96,7 @@ i.large {
     text-decoration: none;
   }
   a:hover {
-    color: #18bc9c;
+    color: #970a39;
   }
 }
 
@@ -351,7 +351,7 @@ i.large {
       font-weight: bold;
     }
     .description {
-      font-size: 16px;
+      font-size: 12px;
       margin: 10px 0;
     }
     .footer {
@@ -468,7 +468,7 @@ i.large {
         font-weight: 400;
 
         &:hover {
-          color: #18bc9c;
+          color: #920619;
         }
       }
       .meta {
@@ -479,7 +479,7 @@ i.large {
       }
       .description {
         margin-top: .6em;
-        font-size: 1.2em;
+        font-size: 1em;
         line-height: 1.4285em;
         color: $concrete;
       }
@@ -497,7 +497,9 @@ i.large {
         }
         .info>a {
           display: inline-block;
-          color: #18bc9c;
+          color:#FF002E;
+          font-weight: bold;
+          
         }
       }
       .extra>a {
@@ -567,7 +569,7 @@ i.large {
   }
   a.text {
     font-size: 16px;
-    color: #18bc9c;
+    color: #FF002E;
   }
 }
 
@@ -594,7 +596,7 @@ i.large {
   border-color: #f9f9f9;
 
   a {
-    color: #18bc9c;
+    color:#FF002E;
 
     img {
       margin-right: 10px;
