@@ -28,7 +28,7 @@ class TagController extends Controller
     public function show($tag)
     {
         $tag = Tag::query()->where('tag', $tag)->first();
-
+        // dd($tag);
         if (!$tag) {
             abort(404);
         }
