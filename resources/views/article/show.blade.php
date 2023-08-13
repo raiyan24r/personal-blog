@@ -17,6 +17,8 @@
                 @endforeach
             @endif
             <i class="fas fa-clock"></i>{{ $article->published_at->diffForHumans() }}
+            @component('particals.socials')
+            @endcomponent
         </div>
     @endcomponent
 
@@ -32,7 +34,8 @@
             <div class="col-md-8 offset-md-2">
 
                 <parse content="{{ $article->content['raw'] }}"></parse>
-
+                @component('particals.socials_article')
+                @endcomponent
                 @if ($article->is_original)
                 @endif
                 @if (config('blog.social_share.article_share'))
@@ -41,7 +44,7 @@
                             data-description="{{ $article->title }}"
                             {{ config('blog.social_share.sites') ? 'data-sites=' . config('blog.social_share.sites') : '' }}
                             {{ config('blog.social_share.mobile_sites') ? 'data-mobile-sites=' . config('blog.social_share.mobile_sites') : '' }}
-                            initialized></div>
+                            initialized> Share : </div>
                     </div>
                 @endif
             </div>
