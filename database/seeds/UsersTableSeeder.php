@@ -1,8 +1,11 @@
 <?php
 
+namespace Database\Seeders;
+
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 use Carbon\Carbon;
-use App\User;
 use Illuminate\Database\Seeder;
 
 class UsersTableSeeder extends Seeder
@@ -28,7 +31,5 @@ class UsersTableSeeder extends Seeder
         ];
 
         DB::table('users')->insert($users);
-
-        factory(User::class, 10)->create();
     }
 }
